@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<manifest identifier="LVXb-ZPzBt1Du5eLsP3AauMHVD3yUTqmjJV7A9Mx" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location> 
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>ANZ DCMS Engineering Site Induction.</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>ANZ DCMS Engineering Site Induction.</title>
+        <adlcp:datafromlms>eyJjcHYiOiJqSlY3QTlNeCIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/allowed-options.js"/>
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/25981367.js" />
+<file href="scormcontent/lib/rise/56803e6d.css" />
+<file href="scormcontent/lib/rise/336ec429.js" />
+<file href="scormcontent/lib/rise/042cfe1f.css" />
+<file href="scormcontent/lib/rise/70c6f276.js" />
+<file href="scormcontent/lib/rise/51713088.js" />
+<file href="scormcontent/lib/rise/8a3bdb69.js" />
+<file href="scormcontent/lib/rise/6e309c31.js" />
+<file href="scormcontent/lib/rise/db85f2af.js" />
+<file href="scormcontent/lib/rise/cdd357db.js" />
+<file href="scormcontent/lib/rise/eacadcc5.js" />
+<file href="scormcontent/lib/rise/df30b989.js" />
+<file href="scormcontent/lib/rise/c6bb33de.js" />
+<file href="scormcontent/lib/rise/ccdec15f.js" />
+<file href="scormcontent/lib/rise/0bcec83e.js" />
+<file href="scormcontent/lib/rise/6042b8ee.js" />
+<file href="scormcontent/lib/rise/d748010f.js" />
+<file href="scormcontent/lib/rise/7c2963ab.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/5023a180.js" />
+<file href="scormcontent/lib/learn_dist/0e26f60e.css" />
+<file href="scormcontent/lib/learn_dist/57a10bd0.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/ad3a3b3a.js" />
+<file href="scormcontent/lib/mondrian/f4e158bb.js" />
+<file href="scormcontent/lib/mondrian/51978a12.js" />
+<file href="scormcontent/lib/mondrian/09e37aee.js" />
+<file href="scormcontent/lib/mondrian/196251cf.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/5049d5f6.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/KY9juku4bA8UZMQx.jpg" />
+<file href="scormcontent/assets/Generate-a-high-tech-Data-Centre-environment-focusing-on-engineering-and-maintenance-operations.-The-scene-should-include-mo.jpg" />
+<file href="scormcontent/assets/footer.png" />
+<file href="scormcontent/assets/number%201.png" />
+<file href="scormcontent/assets/number%202.jpg" />
+<file href="scormcontent/assets/Beep%20Beep.mp3" />
+<file href="scormcontent/assets/Whoop%20Whoop.mp3" />
+<file href="scormcontent/assets/Generate-a-realistic-first-aid-box-mounted-on-a-clean%2C-modern-Data-Centre-wall.-The-box-should-be-sleek%2C-well-integrated.jpg" />
+<file href="scormcontent/assets/Picture23.png" />
+<file href="scormcontent/assets/cx4pZX/mountains.jpg" />
+<file href="scormcontent/assets/Picture24.jpg" />
+<file href="scormcontent/assets/Picture25.png" />
+<file href="scormcontent/assets/IMD%20Image.png" />
+<file href="scormcontent/assets/Generate-a-professional-Data-Centre-environment-featuring-a-clearly-marked-and-secured-work-area-with-bollards%2C-barrier-ta.jpg" />
+<file href="scormcontent/assets/NJaD4u/footer.png" />
+<file href="scormcontent/assets/Generate-a-professional-meeting-room-or-workspace-within-a-high-tech-Data-Centre-environment.-The-scene-should-feature-a-str.jpg" />
+<file href="scormcontent/assets/Picture27.png" />
+<file href="scormcontent/assets/Picture26.png" />
+<file href="scormcontent/assets/Picture28.png" />
+<file href="scormcontent/assets/Picture29.png" />
+<file href="scormcontent/assets/S-0087.jpg" />
+<file href="scormcontent/assets/s-l1600.jpg" />
+<file href="scormcontent/assets/Generate-a-professional-Data-Centre-environment-featuring-a-close-up-of-a-VESDA-smoke-detection-unit-mounted-on-a-wall-or-ce.jpg" />
+<file href="scormcontent/assets/X--haf-sr2_WgxSEFe-stock_image.jpg" />
+<file href="scormcontent/assets/Generate-a-professional-Data-Centre-environment-featuring-an-elevated-work-platform-%28scissor-lift-or-boom-lift%29-position.jpg" />
+<file href="scormcontent/assets/Generate-a-professional-Data-Centre-environment-with-a-clean-and-organised-work-area.-The-image-should-depict-tools-stored-s.jpg" />
+<file href="scormcontent/assets/Generate-a-close-up-view-of-a-professional-CCTV-security-camera-mounted-on-a-clean%2C-modern-Data-Centre-wall.-The-camera-sh.jpg" />
+<file href="scormcontent/assets/Generate-a-professional-Data-Centre-loading-bay-or-delivery-area%2C-featuring-a-structured-and-secure-environment.jpg" />
+<file href="scormcontent/assets/zSHIa_/footer.png" />
+<file href="scormcontent/assets/MmovRWvqdppicggL.png" />
+
+    </resource>
+  </resources>
+</manifest>
